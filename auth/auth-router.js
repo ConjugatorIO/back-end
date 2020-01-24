@@ -53,7 +53,7 @@ router.post("/login", (req, res) => {
                 } else {
                     res
                         .status(401)
-                        .json({ message: "Not vailed credentals." })
+                        .json({ message: "Unable to validate credentials" })
                 }
             })
     } else {
